@@ -1,0 +1,188 @@
+*
+{
+    padding:0 ;
+    margin:0 ;
+}
+img
+{
+    width: 100%;
+}
+
+#all-words
+{
+    font-family: Segoe UI;
+}
+ p{line-height: 1.7;}
+ h1{line-height: 1.7;}
+ h2{line-height: 1.7;}
+
+
+
+#header
+{
+    background-color: #333333
+    ;
+}
+
+header h1
+{
+    color: white;
+    text-align: center;
+    padding: 12px 0 10px 0;
+}
+
+nav li
+{
+    display: inline-block;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: white; 
+}
+
+nav ul
+{
+    word-spacing: 24px;
+}
+header ul
+{
+    text-align: center;
+    padding: 24px 0 18px 400px ;
+}
+
+
+#home
+{
+    color:#f7c08a;
+}
+
+
+.Grid
+{
+    display: grid;
+    grid-template-columns: 30% 1fr; 
+}
+
+#background1
+{
+    background-image: url(../img/showcase.jpg); 
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section-1-grid
+{
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    padding: 100px 0 0 0;
+}
+
+.text-center
+{
+    text-align: center;
+    padding: 0 55px 0 55px;
+    color: white;
+    
+}
+
+#white
+{
+color: white;
+}
+
+#orange
+{
+    color:#f7c08a ;
+}
+
+
+#button
+{
+    text-decoration: none;
+    color: white;
+    background-color:#333333 ;
+    border: #333333;
+    border-width:15px ;
+    padding: 12px 8px;
+}
+
+
+.grid-2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+
+}
+
+#fit
+{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#text-center-white
+{
+    text-align: center;
+    padding: 24px 55px 0 55px;
+    color: white;
+    background-color:#333333 ;
+}
+
+#bt-white
+{
+    text-decoration: none;
+    color: #333333;
+    background-color: white;
+    border: white;
+    border-width:20px ;
+    padding: 12px 8px;
+}
+.pad
+{
+    padding: 30px 0 0 0;
+
+}
+
+#grid-3
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.center-3
+{
+    text-align: center;
+    padding: 24px 55px 0 55px;
+}
+
+i
+{
+    font-size: xx-large;
+}
+
+#grid-3 h2
+{
+    font-size: large;
+}
+
+#foot
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #333333;
+    color: white;
+    font-size: small;
+    align-items: center;
+    justify-items: center;
+}
+
